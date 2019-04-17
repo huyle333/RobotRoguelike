@@ -34,6 +34,6 @@ public class PlayerCombat : MonoBehaviour
     /// <param name="amount"></param>
     public void TakeDamage(int amount)
     {
-        m_Health = Mathf.Max(0, Mathf.Max(0, Mathf.Min(m_MaxHealth, m_Health - amount));
+        m_Health = Mathf.Max(0, Mathf.Max(0, Mathf.Min(m_MaxHealth, m_Health - amount)));
     }
 }
